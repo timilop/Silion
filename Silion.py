@@ -4,6 +4,10 @@ import time
 from time import sleep
 from colorama import init, Fore
 init(autoreset=True)
+if os.sys.platform == "win32":
+            os.system("cls")
+        else:
+            os.system("clear")
 print()
 print()
 print(Fore.GREEN + "   ██████  ██▓ ██▓     ██▓ ▒█████   ███▄    █ ")
